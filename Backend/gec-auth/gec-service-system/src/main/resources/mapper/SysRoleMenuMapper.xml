@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.gec.system.mapper.SysRoleMenuMapper">
+    <!--automapping:true表示开启驼峰命名规则-->
+    <resultMap id="RoleMenuMap" type="com.gec.model.system.SysRoleMenu" autoMapping="true">
+    </resultMap>
+
+
+</mapper>
